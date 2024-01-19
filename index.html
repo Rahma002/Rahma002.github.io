@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahma Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+
+      <header class="header">
+          <div class="hero">
+              <h2 class heading>What is My Healer?</h2>
+              <p class="sub-heading">Sunset and Hike</p>
+          </div>
+          <div class="features feature-1">
+              <h4 class="year">2023</h4>
+              <p class="place">Obelix Sea View</p>
+          </div>
+          <div class="features feature-2">
+              <h4 class="year">2023</h4>
+              <p class="place">Gunung Api Purba</p>
+          </div>
+      </header>
+
+      <nav class="menu">
+          <div class="menu-toggle">
+              <input type="checkbox">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="brand">
+              <h1>Oizys</h1>
+          </div>
+          <ul class="menu-list">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Gallery</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+            <div class="icon">💌</div>
+            <h3>Wordays</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eos eaque odit quibusdam id provident.</p> 
+        </div>
+        <div class="service">
+            <div class="icon">🎶</div>
+            <h3>Songdays</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eos eaque odit quibusdam id provident.</p>
+        </div>
+        <div class="service">
+          <div class="icon">📚</div>
+          <h3>Bookdays</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eos eaque odit quibusdam id provident.</p>
+        </div>
+        <div class="service">
+            <div class="icon">🆘</div>
+            <h3>Coddays</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eos eaque odit quibusdam id provident.</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+          <h2>Gallery Dumps</h2>
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+      </section>
+    </div>
+    <script>
+          const menuToggle = document.querySelector(".menu-toggle input");
+          const nav = document.querySelector("nav ul");
+
+          menuToggle.addEventListener("click", function () {
+          nav.classList.toggle("slide");
+          });   
+    </script>
+</body>
+</html>
